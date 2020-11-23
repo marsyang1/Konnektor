@@ -12,7 +12,7 @@ Skype to Slack integration
 Manual:
 
 - register new Skype user
-- setup Python, pip, SkPy, Flask, Requests, upload skype_listener_prod.py, skype_sender_prod.py to your server 
+- setup Python, pip, SkPy, Flask, Requests, jsonpickle, upload skype_listener_prod.py, skype_sender_prod.py to your server 
 - Make new Slack app, set up incoming webhook and register post to channel https://api.slack.com/custom-integrations/outgoing-webhooks listener (http(s)://your_host/listen/skype) or Corezoid process (Corezoid is recommended, see below)
 - If you choose Corezoid import SlackHostProcess into your Corezoid account and use Connect to Messnger -> Slack http://prntscr.com/jtpegi Event Subscription webhook http://prntscr.com/jtpepb as event listener
 - if you will not use Telegram - live http://prntscr.com/ju8ahm with default values
